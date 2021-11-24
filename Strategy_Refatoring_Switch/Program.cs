@@ -10,6 +10,7 @@ namespace Strategy_Refatoring_Switch
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Strategy");
         }
     }
 }
