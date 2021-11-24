@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design_patterns_exercise", "design_patterns_exercise\design_patterns_exercise.csproj", "{CEDFF031-17F7-497D-98E1-43B30FC6BA02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy_Refatoring_Switch", "Strategy_Refatoring_Switch\Strategy_Refatoring_Switch.csproj", "{26BF502C-ACC3-4AAA-ACB4-84CEADA0DE8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "TestOfEmployeeSalary\Tests.csproj", "{35216A24-C9A5-4E67-BACF-FF074C56C551}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CEDFF031-17F7-497D-98E1-43B30FC6BA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEDFF031-17F7-497D-98E1-43B30FC6BA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEDFF031-17F7-497D-98E1-43B30FC6BA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEDFF031-17F7-497D-98E1-43B30FC6BA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BF502C-ACC3-4AAA-ACB4-84CEADA0DE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BF502C-ACC3-4AAA-ACB4-84CEADA0DE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BF502C-ACC3-4AAA-ACB4-84CEADA0DE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BF502C-ACC3-4AAA-ACB4-84CEADA0DE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35216A24-C9A5-4E67-BACF-FF074C56C551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35216A24-C9A5-4E67-BACF-FF074C56C551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35216A24-C9A5-4E67-BACF-FF074C56C551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35216A24-C9A5-4E67-BACF-FF074C56C551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
