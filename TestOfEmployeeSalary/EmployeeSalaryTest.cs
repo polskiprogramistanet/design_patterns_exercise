@@ -43,6 +43,20 @@ namespace Tests
             //Act
             var salary = employee.CalculateNewSalary(100, 100, 1, 2);
 
+
+            //Assert
+            Assert.AreEqual(300.0d, salary, 0.0001);
+        }
+        [TestMethod]
+        public void CalculateSalaryForWorkerTest2()
+        {
+            //Arrange
+            var employee = new Employee(EmployeeType.Worker, new WorkerStrategy());
+
+            //Act
+            var salary = employee.CalculateNewSalary(100, 100, 1, 2);
+
+
             //Assert
             Assert.AreEqual(300.0d, salary, 0.0001);
         }
